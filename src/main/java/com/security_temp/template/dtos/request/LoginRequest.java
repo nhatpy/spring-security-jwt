@@ -1,4 +1,4 @@
-package com.security_temp.dtos.request;
+package com.security_temp.template.dtos.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

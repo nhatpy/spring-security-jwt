@@ -1,12 +1,12 @@
-package com.security_temp.controllers;
+package com.security_temp.template.controllers;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.security_temp.dtos.request.LoginRequest;
-import com.security_temp.dtos.response.AuthenticationResponse;
-import com.security_temp.services.AuthenticationService;
+import com.security_temp.template.dtos.request.LoginRequest;
+import com.security_temp.template.dtos.response.AuthenticationResponse;
+import com.security_temp.template.services.AuthenticationService;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,6 +1,6 @@
-package com.security_temp.dtos.response;
+package com.security_temp.template.dtos.response;
 
-import com.security_temp.dtos.mapper.UserDTO;
+import com.security_temp.template.dtos.mapper.UserDTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

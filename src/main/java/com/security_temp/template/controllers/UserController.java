@@ -1,4 +1,4 @@
-package com.security_temp.controllers;
+package com.security_temp.template.controllers;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

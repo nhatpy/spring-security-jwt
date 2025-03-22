@@ -1,4 +1,4 @@
-package com.security_temp.configs.jwt;
+package com.security_temp.template.configs.jwt;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.nimbusds.jose.JOSEException;
-import com.security_temp.services.JwtService;
-import com.security_temp.services.UserService;
+import com.security_temp.template.services.JwtService;
+import com.security_temp.template.services.UserService;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

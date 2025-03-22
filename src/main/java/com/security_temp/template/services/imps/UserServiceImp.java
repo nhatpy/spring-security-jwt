@@ -1,13 +1,13 @@
-package com.security_temp.services.imps;
+package com.security_temp.template.services.imps;
 
 import java.util.Optional;
 
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.security_temp.models.User;
-import com.security_temp.repositories.UserRepository;
-import com.security_temp.services.UserService;
+import com.security_temp.template.models.User;
+import com.security_temp.template.repositories.UserRepository;
+import com.security_temp.template.services.UserService;
 
 import lombok.RequiredArgsConstructor;
 

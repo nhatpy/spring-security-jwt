@@ -1,4 +1,4 @@
-package com.security_temp.models;
+package com.security_temp.template.models;
 
 import java.util.Collection;
 

@@ -1,12 +1,16 @@
-package com.security_temp.configs;
+package com.security_temp.template.configs;
+
+import java.util.Collections;
+import java.util.List;
 
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.security_temp.models.User;
-import com.security_temp.repositories.UserRepository;
+import com.security_temp.template.models.User;
+import com.security_temp.template.repositories.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 
@@ -31,16 +35,21 @@ public class ApplicationInitConfig {
             User userall = User.builder()
                     .username("userall")
                     .password(passwordEncoder.encode("000000"))
+                    .authorities(List.of(
+                            new SimpleGrantedAuthority("ROLE_ADMIN"),
+                            new SimpleGrantedAuthority("ROLE_USER")))
                     .build();
 
             User useradmin = User.builder()
                     .username("useradmin")
                     .password(passwordEncoder.encode("000000"))
+                    .authorities(Collections.singleton(new SimpleGrantedAuthority("ROLE_ADMIN")))
                     .build();
 
             User usernormal = User.builder()
                     .username("usernormal")
                     .password(passwordEncoder.encode("000000"))
+                    .authorities(Collections.singleton(new SimpleGrantedAuthority("ROLE_USER")))
                     .build();
 
             userRepository.save(useradmin);

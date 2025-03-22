@@ -1,4 +1,4 @@
-package com.security_temp.services;
+package com.security_temp.template.services;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;

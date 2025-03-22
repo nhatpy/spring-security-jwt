@@ -1,4 +1,4 @@
-package com.security_temp.configs;
+package com.security_temp.template.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.security_temp.configs.jwt.JwtAuthenticationFilter;
+import com.security_temp.template.configs.jwt.JwtAuthenticationFilter;
 
 import lombok.RequiredArgsConstructor;
 

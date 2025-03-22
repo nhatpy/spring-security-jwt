@@ -1,4 +1,4 @@
-package com.security_temp;
+package com.security_temp.template;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

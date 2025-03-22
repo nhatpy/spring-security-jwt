@@ -1,6 +1,6 @@
-package com.security_temp.dtos.mapper;
+package com.security_temp.template.dtos.mapper;
 
-import com.security_temp.models.User;
+import com.security_temp.template.models.User;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

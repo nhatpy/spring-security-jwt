@@ -1,4 +1,4 @@
-package com.security_temp.services.imps;
+package com.security_temp.template.services.imps;
 
 import java.text.ParseException;
 import java.util.Date;
@@ -14,7 +14,7 @@ import com.nimbusds.jose.crypto.MACSigner;
 import com.nimbusds.jose.crypto.MACVerifier;
 import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;
-import com.security_temp.services.JwtService;
+import com.security_temp.template.services.JwtService;
 
 @Service
 public class JwtServiceImp implements JwtService {
